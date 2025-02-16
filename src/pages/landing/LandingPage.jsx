@@ -2,6 +2,10 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BarChart3, MessageCircle, Users, Brain, ArrowRight, Mic, MessageSquare, Github, Linkedin, Twitter } from 'lucide-react';
 import { Button } from '../../components/ui/button';
+import arjun from "/arjun.jpeg"
+import bharat from "/bharat.jpeg"
+import harsh from "/harsh.jpeg"
+import Footer from '../../components/ui/Footer';
 
 const features = [
   {
@@ -237,6 +241,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }
